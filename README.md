@@ -1,7 +1,7 @@
 # chrome_app_2021
 
 - Clock
-- LocalStarage
+- LocalStorage
 - ToDo List
 - Geo Location
 - Weather API
