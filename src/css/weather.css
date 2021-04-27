@@ -1,0 +1,16 @@
+.weather-box {
+  display: flex;
+  width: 60%;
+}
+
+.js-weather {
+  padding-top: 18px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-weather-temp {
+  padding-top: 8px;
+  font-size: 24px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Woongyi's home</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
+    <div class="blur-container">
+      <div class="blur-box">
+        <div class="js-clock">
+          <span class="clock-text">00:00</span>
+        </div>
+      </div>
+
+      <div class="blur-box">
+        <div class="weather-box">
+          <img class="weather-icon no-showing" alt="weather" />
+          <span class="js-weather"></span>
+        </div>
+        <span class="js-weather-temp"></span>
+      </div>
+
+      <div class="blur-box">
+        <form class="js-userForm no-showing">
+          <input
+            class="input-box"
+            type="text"
+            placeholder="What is your name?"
+          />
+        </form>
+        <span class="js-greetings no-showing"></span>
+
+        <form class="js-toDoForm no-showing">
+          <input class="input-box" type="text" placeholder="Write a to do" />
+        </form>
+        <div class="js-toDoList no-showing"></div>
+      </div>
+    </div>
+
+    <script src="src/js/clock.js"></script>
+    <script src="src/js/gretting.js"></script>
+    <script src="src/js/list.js"></script>
+    <script src="src/js/bg.js"></script>
+    <script src="src/js/weather.js"></script>
+  </body>
+</html>
